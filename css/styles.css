@@ -25,10 +25,10 @@ body {
 
 .absolute-website-container {
     width: 960px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: rgb(255, 225, 225);
     border: 0.25px solid black;
-    border-radius: 15px;
+    border-radius: 25px;
 
     overflow: hidden;
 
@@ -37,6 +37,42 @@ body {
 
 a {
     color: #003cff;
+    text-decoration: none;
+}
+
+h2.mc-h2-s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 35px;
+
+    color: white;
+    text-shadow: 0 1px 3px black;
+    font-size: 22px;
+
+    background: linear-gradient(to bottom, #ff9455 0%, #e65501 45%, #e96011 100%);
+    border: 1.5px solid black;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+    padding: 6px 0;
+    margin: 10px 65px 12px;
+
+    box-sizing: border-box;
+}
+
+p.mc-p-s {
+    background-color: #e6a1e0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.6;
+
+    padding: 10px 25px;
+    margin: 5px 80px 25px;
+
+    box-sizing: border-box;
 }
 
 #main-header {
@@ -60,12 +96,13 @@ a {
 #header-logo {
     width: 100px;
     height: auto;   
-    margin-right: 10px;
+    margin: 5px 10px;
 }
 
 .header-title {
     display: flex;
     flex-direction: column;
+    text-shadow: 3px 3px 5px black;
 }
 
 .header-title h1 {
@@ -79,15 +116,18 @@ a {
 }
 
 .main-content {
-    padding: 10px;
+    padding: 15px;
     font-size: 16px;
 }
 
 .main-footer {
     clear: both;
     background: linear-gradient(to bottom, #ff9455 0%, #e65501 45%, #e96011 100%);
+
     color: white;
     text-align: center;
+    text-shadow: 0 1px 3px black;
+
     padding: 1px;
     font-size: 14px;
 }
